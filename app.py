@@ -71,7 +71,7 @@ def stations():
     #shows list of stations from dataset.
 
     #query for stations
-    stations = session.query(Station).all()
+    stations = session.query(station).all()
 
     #list of dictionaries that is then returned jsonified
     stations_list = []
