@@ -10,7 +10,7 @@ from flask import Flask, jsonify
 import datetime as dt
 
 #creating engine
-engine = create_engine("sqlite:///hawaii.sqlite")
+engine = create_engine("sqlite:///Resources/hawaii.sqlite")
 
 #reflect
 base = automap_base()
