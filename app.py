@@ -13,7 +13,7 @@ import datetime as dt
 engine = create_engine("sqlite:///hawaii.sqlite")
 
 #reflect
-base = autompa_base()
+base = automap_base()
 base.prepare(engine, reflect= True)
 
 #Save references
